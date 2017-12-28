@@ -4,7 +4,6 @@
   border: 0;
 }
 .Media {
-  border: solid 1px;
   display: flex;
   flex-direction: column;
   max-width: 264px;
@@ -19,7 +18,7 @@
 
 }
 #img-com-1 {
-  border: solid red 1px;
+  margin: auto;
   height: 160px;
   width: 260px;
 }

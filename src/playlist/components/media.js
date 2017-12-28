@@ -5,9 +5,9 @@ class Media extends Component {
     return (
       <div className="Media">
         <div id="childMedia">
-          <img src="" alt="" id="img-com-1" />
-          <h3 className="text-comp">¿Por qué aprender React?...</h3>
-          <p className="text-comp">LeonidasEsteban</p>
+          <img src={this.props.image} alt="" id="img-com-1" />
+          <h3 className="text-comp">{this.props.title}</h3>
+          <p className="text-comp">{this.props.autor}</p>
         </div>
       </div>
     )
