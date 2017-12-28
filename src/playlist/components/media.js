@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './media.css'
-import propTypes from 'prop-types'
+import PropTypes from 'prop-types'
 class Media extends Component {
   render() {
     return (
