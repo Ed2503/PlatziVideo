@@ -6,16 +6,16 @@ class Media extends Component {
     return (
       <div className="Media">
         <div id="childMedia">
-          <img src={this.props.image} alt="" id="img-com-1" />
+          <img src={this.props.cover} alt="" id="img-com-1" />
           <h3 className="text-comp">{this.props.title}</h3>
-          <p className="text-comp">{this.props.autor}</p>
+          <p className="text-comp">{this.props.author}</p>
         </div>
       </div>
     )
   }
 }
 Media.propTypes = {
-  image: PropTypes.string,
+  cover: PropTypes.string,
   title: PropTypes.string.isRequired,
   author: PropTypes.string,
   type: PropTypes.oneOf(['video', 'audio']),
