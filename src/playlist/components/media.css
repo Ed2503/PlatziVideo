@@ -16,7 +16,7 @@
 #childMedia {
   display: flex;
   flex-direction: column;
-  max-width: 260px;
+  min-width: 260px;
 
 }
 #img-com-1 {

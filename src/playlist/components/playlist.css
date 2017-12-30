@@ -1,6 +1,5 @@
 .playlist {
   display: flex;
-  width: 99%;
   margin: auto;
   border: solid 1px;
 }
