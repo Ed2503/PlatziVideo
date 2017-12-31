@@ -5,10 +5,10 @@ class Media extends Component {
   render() {
     return (
       <div className="Media">
-        <div id="childMedia">
-          <img src={this.props.cover} alt="" id="img-com-1" />
-          <h3 className="text-comp">{this.props.title}</h3>
-          <p className="text-comp">{this.props.author}</p>
+        <div  className="Media-cover">
+          <img src={this.props.cover} width={260} height={160} className="Media-image" />
+          <h3 className="Media-title">{this.props.title}</h3>
+          <p className="Media-author">{this.props.author}</p>
         </div>
       </div>
     )
