@@ -12,7 +12,7 @@ function Icon(props) {
       width={size}
       viewBox="0 0 32 32"
     >
-    {props.children}
+      {props.children}
     </svg>
   )
 }
